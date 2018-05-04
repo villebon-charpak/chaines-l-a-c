@@ -14,19 +14,17 @@
 def carre(toto):
     return toto**2
 
-#nombre_utilisateur = input("Entrez votre nombre\n")
-nombre_utilisateur = 9
+###nombre_utilisateur = input("Entrez votre nombre\n")
+##nombre_utilisateur = 9
+##
+##x = 3
+##x = x**2
+##print (x)
+##
+##
+##n = carre(nombre_utilisateur)
+##print(n)
 
-x = 3
-x = x**2
-print (x)
-
-
-n = carre(nombre_utilisateur)
-print(n)
-
-
-print (nombre_utilisateur)
 
 
 
