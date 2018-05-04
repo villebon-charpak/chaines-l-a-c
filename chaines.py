@@ -2,13 +2,7 @@
 # encoding : utf-8
 
 
-#################################################################################################
-#   _                _         _                  _                           _   __            #
-#  | |   ___ ___  __| |_  __ _(_)_ _  ___ ___  __| |___   __ __ _ _ _ __ _ __| |_ \_\ _ _ ___   #
-#  | |__/ -_|_-< / _| ' \/ _` | | ' \/ -_|_-< / _` / -_) / _/ _` | '_/ _` / _|  _/ -_) '_/ -_)  #
-#  |____\___/__/ \__|_||_\__,_|_|_||_\___/__/ \__,_\___| \__\__,_|_| \__,_\__|\__\___|_| \___|  #
-#                                                                                               #
-#################################################################################################
+
 
 # Le but final de cette activité est d'écrire petit programme de cryptographie qui permet de chiffrer et déchiffrer des messages en utilisant le chiffrement de César. On devrait au final arriver notamment à déchiffrer des messages comme ceux-ci :
 
@@ -25,7 +19,7 @@ message_secret3 = "Mðspjp{h{pvuz'(']v|z'ñ{lz'hyyp}ðz'ç'kðjopmmyly'jl'tlzzhn
 ######################
 # Pour définir une chaine de caractère dans Python, on peut taper une séquence de symboles délimitée au début et à la fin par des accolades ', des  guillements ", ou des triples guillemets """ :
 
- = 'Je ne saute pas '
+ma_chaine1 = 'Je ne saute pas '
 ma_chaine2 = "de ligne !"
 ma_chaine3 = """Un texte mis entre triples guillemets peut contenir des
 sauts
