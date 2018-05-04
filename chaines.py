@@ -1,6 +1,6 @@
-#!/usr/bin/env python
+﻿#!/usr/bin/env python
 # encoding : utf-8
-
+a que coucou mes ptits cornichons!!!
 
 #################################################################################################
 #   _                _         _                  _                           _   __            #
