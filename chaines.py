@@ -25,7 +25,7 @@ message_secret3 = "Mðspjp{h{pvuz'(']v|z'ñ{lz'hyyp}ðz'ç'kðjopmmyly'jl'tlzzhn
 ######################
 # Pour définir une chaine de caractère dans Python, on peut taper une séquence de symboles délimitée au début et à la fin par des accolades ', des  guillements ", ou des triples guillemets """ :
 
- = 'Je ne saute pas '
+ma_chaine1 = 'Je ne saute pas '
 ma_chaine2 = "de ligne !"
 ma_chaine3 = """Un texte mis entre triples guillemets peut contenir des
 sauts
