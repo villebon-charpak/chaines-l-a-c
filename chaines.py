@@ -12,7 +12,7 @@
 
 # Le but final de cette activité est d'écrire petit programme de cryptographie qui permet de chiffrer et déchiffrer des messages en utilisant le chiffrement de César. On devrait au final arriver notamment à déchiffrer des messages comme ceux-ci :
 
-message_secret1 = 'mhvxlvmxohvfhvdu'
+message_secret1 = 'mhvxlvmxohvfhvdu' Tentative de repository
 message_secret2 = 'dwwdtxhdodxeh'
 message_secret3 = "Mðspjp{h{pvuz'(']v|z'ñ{lz'hyyp}ðz'ç'kðjopmmyly'jl'tlzzhnl5'Sl'jvkl'kl'Jðzhy'u.h'kðzvythpz'ws|z'kl'zljyl{z'wv|y'}v|z5"
 
