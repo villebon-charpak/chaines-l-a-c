@@ -23,14 +23,14 @@ compter_occurences("u", chaine)
 
 chaine = input("Veuillez saisir du texte")
 
-def compter_occurences(espace, chaine):
-    compteur = 0
-    for i in range(len(chaine)):
-        if chaine[i] == espace:
-            compteur += 1
-            A = 1 + compteur
-    print(A)
-    return A
+def compter_mots(chaine):
+    if chaine == '': # si la chaine est vide, il y a 0 mot
+        return 0
+    else :
+       compteur = compter_occurences(' ', chaine)
+       compteur = 1 + compteur
+       print(compteur)
+       return compteur
 
 
 compter_occurences(" ", chaine)
