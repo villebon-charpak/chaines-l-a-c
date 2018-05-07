@@ -3,7 +3,7 @@
 ##exemplechaine = "Salut les amis ! On se retrouve caractere un nouveau tuto beauté proposé par Gemey Maybelline"
 ##def compter_occurences(x):              #(x) = rpz notre argument
 ##    A = 
-##    return A            #la fonction return nous de voir la valeur que nous donne la fonction
+##    return A            #la fonction return nous permet de voir la valeur que nous donne la fonction
 ## 
 ##print(A)                #mettre print pour vraiment voir la valeur de la fonction
 ##
