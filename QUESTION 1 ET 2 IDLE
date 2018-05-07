@@ -1,5 +1,7 @@
 #QUESTIONS 1 ET 2 - NIVEAU 1
 
+#QUESTION 1
+
 chaine = input("Veuillez saisir du texte")
 
 
@@ -13,3 +15,21 @@ def compter_occurences(caractere, chaine):
 
 
 compter_occurences("u", chaine)
+
+
+
+#QUESTION 2
+
+chaine = input("Veuillez saisir du texte")
+
+def compter_occurences(espace, chaine):
+    compteur = 0
+    for i in range(len(chaine)):
+        if chaine[i] == espace:
+            compteur += 1
+            A = 1 + compteur
+    print(A)
+    return A
+
+
+compter_occurences(" ", chaine)
