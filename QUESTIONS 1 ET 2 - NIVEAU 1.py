@@ -1,9 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon May  7 15:06:42 2018
+#QUESTIONS 1 ET 2 - NIVEAU 1
 
-@author: etudiant
-"""
 #QUESTION 1
 
 chaine = input("Veuillez saisir du texte")
@@ -34,4 +30,3 @@ def compter_mots(chaine):
 
 
 compter_occurences(" ", chaine)
-
