@@ -13,7 +13,7 @@ for lettre in chaine_de_caractere:
     else:
         dico[lettre]=1
         
-indice_max= dico.keys()[0] # je n'arrive pas à comprendre quel est le problème ici et encore moins à le régler (TypeError: 'dict_keys' object does not support indexing)
+indice_max= list(dico.keys())[0] # je n'arrive pas à comprendre quel est le problème ici et encore moins à le régler (TypeError: 'dict_keys' object does not support indexing)
 
 for lettre in dico:
     if dico[lettre]> dico[indice_max]:
@@ -26,7 +26,7 @@ print("La lettre la plus fréquente est"+ indice_max)
 # Donc clé= nombre-32
 
 nombre= ord(indice_max)
-cle= nombre-32
+cle= nombre-ord(" ")
 
 def decaler(caractere, decalage):        # pour éviter d'avoir à redéclarer la fonction, on aurait pu donner le nom de l'exercice dans lequel c'est défini (pas possible ici car le nom du fichier a un espace)
     numero = ord(caractere) + decalage

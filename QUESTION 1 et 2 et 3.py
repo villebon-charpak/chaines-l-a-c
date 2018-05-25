@@ -25,7 +25,7 @@ chaine = input("Veuillez saisir du texte")
 
 def compter_mots(chaine):
     if chaine == '': # si la chaine est vide, il y a 0 mot
-        return 0
+        return 0     #garde en mémoire le 0
     else :
        compteur = compter_occurences(' ', chaine)
        compteur = 1 + compteur
@@ -37,7 +37,7 @@ compter_occurences(" ", chaine)
 
 ##QUESTION 3 - NIVEAU 2
 
-chaine = input("Veuillez saisir du texte\n")
+chaine = input("Veuillez saisir du texte\n")    #\n veut dire retour à la ligne 
 
 
 def compter_mot(mot, chaine):
